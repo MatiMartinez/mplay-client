@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.brand {
+  font-weight: bolder;
+  font-size: 32px;
+  color: #47aefa;
+}
+
+.btn-sign-in {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-username {
+  color: #acb6be;
+  margin: 0 40px 0 0;
+  border: 1px solid #acb6be;
+  padding: 10px 40px;
+}
