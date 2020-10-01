@@ -1,0 +1,29 @@
+.main-my-movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-my-movie-card p {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.text-score {
+  margin: 0 0 1rem 0;
+  font-weight: bold !important;
+}
+
+.btn-move {
+  width: 75%;
+  padding: 0.5rem 0;
+  background: #226089;
+  margin: 0 0 0.5rem 0;
+}
+
+.btn-delete {
+  width: 75%;
+  padding: 0.5rem 0;
+  background: #85203b;
+}

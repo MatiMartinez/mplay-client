@@ -31,4 +31,10 @@
   outline: none;
   color: #ffffff;
   border: none;
+  cursor: pointer;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }

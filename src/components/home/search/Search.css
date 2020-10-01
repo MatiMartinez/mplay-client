@@ -1,0 +1,23 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.input-search {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  background: transparent;
+  border: none;
+  border: 1px solid #acb6be;
+  color: #ffffff;
+}
+
+.btn-search {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #acb6be;
+  padding: 0.5rem 1rem;
+  border: 1px solid #acb6be;
+  color: #221e22;
+}

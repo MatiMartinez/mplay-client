@@ -19,10 +19,15 @@
   color: #47aefa;
 }
 
-.btn-sign-in {
+.nav-sign-in,
+.nav-my-movies {
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
+}
+
+.nav-my-movies {
+  margin: auto 2rem;
 }
 
 .nav-buttons {
@@ -35,4 +40,7 @@
   margin: 0 40px 0 0;
   border: 1px solid #acb6be;
   padding: 10px 40px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-decoration: none;
 }

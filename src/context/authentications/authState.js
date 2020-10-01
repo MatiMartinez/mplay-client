@@ -10,6 +10,7 @@ import {
   LOGIN_ERROR,
   LOGOUT,
 } from "../../types/index";
+
 import clientAxios from "../../config/axios";
 import tokenAuth from "../../config/token";
 
@@ -19,6 +20,7 @@ const AuthState = (props) => {
     authenticate: null,
     user: null,
     msg: null,
+    loading: true,
   };
 
   const [state, dispatch] = useReducer(authReducer, initialState);
@@ -31,7 +33,7 @@ const AuthState = (props) => {
         type: REGISTER_OK,
         payload: res.data,
       });
-      userAuthenticate();
+      await userAuthenticate();
     } catch (error) {
       const alert = {
         msg: error.response.data.msg,
@@ -73,7 +75,7 @@ const AuthState = (props) => {
         type: LOGIN_OK,
         payload: res.data,
       });
-      userAuthenticate();
+      await userAuthenticate();
     } catch (error) {
       console.log(error.response);
       const alert = {
@@ -101,6 +103,7 @@ const AuthState = (props) => {
         authenticate: state.authenticate,
         user: state.user,
         msg: state.msg,
+        loading: state.loading,
         registerUser,
         loginUser,
         userAuthenticate,

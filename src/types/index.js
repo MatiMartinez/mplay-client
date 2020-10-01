@@ -1,9 +1,24 @@
+// ALERT
 export const SHOW_ALERT = "SHOW_ALERT";
 export const HIDE_ALERT = "HIDE_ALERT";
 
+// AUTHENTICATION
 export const REGISTER_OK = "REGISTER_OK";
 export const REGISTER_ERROR = "REGISTER_ERROR";
 export const GET_USER = "GET_USER";
 export const LOGIN_OK = "LOGIN_OK";
 export const LOGIN_ERROR = "LOGIN_ERROR";
 export const LOGOUT = "LOGOUT";
+
+// MOVIES
+export const GET_POPULAR_MOVIES = "GET_POPULAR_MOVIES";
+export const GET_MOVIES_BY_SEARCH = "GET_MOVIES_BY_SEARCH";
+export const ADD_MOVIE = "ADD_MOVIE";
+export const REMOVE_MOVIE = "REMOVE_MOVIE";
+export const GET_MOVIES_VIEWED = "GET_MOVIES_VIEWED";
+export const GET_MOVIES_NOT_VIEWED = "GET_MOVIES_NOT_VIEWED";
+export const TOGGLE_VIEWED = "TOGGLE_VIEWED";
+
+// LOADING MOVIES
+export const SHOW_LOADING = "SHOW_LOADING";
+export const HIDE_LOADING = "HIDE_LOADING";

@@ -16,6 +16,7 @@ export default (state, action) => {
         ...state,
         authenticate: true,
         msg: null,
+        loading: false,
       };
     case REGISTER_ERROR:
     case LOGIN_ERROR:
@@ -27,12 +28,14 @@ export default (state, action) => {
         user: null,
         authenticate: null,
         msg: action.payload,
+        loading: false,
       };
     case GET_USER:
       return {
         ...state,
         authenticate: true,
         user: action.payload,
+        loading: false,
       };
     default:
       return state;

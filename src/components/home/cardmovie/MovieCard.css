@@ -1,0 +1,11 @@
+.main-movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-movie-card p {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}

@@ -19,7 +19,7 @@ export default function Register(props) {
 
   useEffect(() => {
     if (authenticate === true) {
-      props.history.push("/paids");
+      props.history.push("/movies");
     }
     if (msg) {
       showAlert(msg.msg, msg.category);

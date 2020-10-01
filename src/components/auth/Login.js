@@ -20,7 +20,7 @@ export default function Login(props) {
 
   useEffect(() => {
     if (authenticate === true) {
-      props.history.push("/paids");
+      props.history.push("/movies");
     }
     if (msg) {
       showAlert(msg.msg, msg.category);
